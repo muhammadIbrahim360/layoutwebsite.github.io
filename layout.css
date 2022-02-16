@@ -1,0 +1,133 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+.nav-container {
+    display: flex;
+    background: rgb(159, 230, 159);
+    justify-content: space-between;
+    transition: 3s all;
+    
+}
+.nav-container:hover {
+      background: none;
+      color: black;
+}
+.title {
+    color: green;
+    text-transform: uppercase;
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+li {
+    padding: 20px;
+    box-sizing: border-box;
+    text-transform: none;
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    color: green
+}
+a:focus{
+    color: black;
+}
+.img-container{
+    display: flex;
+    height: 50vh;
+    background-image: url(IMG_7170.jpg);
+    background-position: center;
+    background-size: cover;
+    /* margin-top: 10px; */
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.user-status {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.title2 {
+    background: rgb(160, 180, 160);
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    transition: 5s all;
+}
+.title2:hover{
+    background: none;
+}
+.status {
+    display: flex;
+}
+.status1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex: 6;
+    background: yellow;
+    transition: 5s all;
+
+}
+.status2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex: 6;
+    background: pink;
+    transition: 5s all;
+
+}
+.status3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex: 6;
+    transition: 5s all;
+    background: green;
+}
+.status1:hover {
+    background: none;
+}
+.status2:hover {
+    background: none;
+}
+.status3:hover {
+    background: none;
+}
+.statuslist {
+    list-style: none;
+}
+h5 {
+    margin: 10px;
+    width: 100%;
+}
+.imgCont {
+    display: flex;
+    flex-direction: column;
+}
+.img {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 50%;
+}
